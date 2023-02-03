@@ -4,10 +4,10 @@
 - NodeJS
 - Truffle
   - `npm install -g truffle`
-  - `Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned` (powershell)
+  - `Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned` (powershell)`
   - `truffle version`
 
-# Usage
+# Commands
 
 - `truffle migrate --reset --network 'development'`
 - `truffle console --network 'development'`
@@ -16,3 +16,6 @@
 HelloWorld.deployed().then(function(instance) {return instance})
 HelloWorld.deployed().then(function(instance) {return instance.getHelloMessage()})
 ```
+
+- `truffle create test [ContractName]`
+- `truffle test`
